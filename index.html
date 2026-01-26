@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata Editaitor - Editor de EXIF Online</title>
+    <meta name="description" content="Herramienta online gratuita para editar información EXIF de tus fotografías de forma fácil y rápida.">
+    <meta name="google-site-verification" content="MEiDmnJOvnWITHUi0HCLxuoulOEm0oTM4fwQMugxoyY" />
+    <meta name="author" content="Aitor Sánchez Gutiérrez" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Metadata Editaitor",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilityTool",
+      "url": "https://metadataeditaitor.vercel.app",
+      "description": "Herramienta online gratuita para editar información EXIF",
+      "author": {
+        "@type": "Person",
+        "name": "Aitor Sánchez Gutiérrez",
+        "url": "https://aitorblog.infinityfreeapp.com/" 
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AitorBlog",
+        "url": "https://aitorblog.infinityfreeapp.com/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+          width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #cbd5e1;
+          border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #94a3b8;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "piexifjs": "https://esm.sh/piexifjs@1.0.6"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
