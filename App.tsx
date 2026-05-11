@@ -304,7 +304,7 @@ const App: React.FC = () => {
             Aitor Sánchez Gutiérrez &copy; 2026
           </p>
           <div className="mt-6 flex justify-center space-x-8 text-xs font-bold text-slate-400 uppercase tracking-widest">
-            <a href="https://aitorblog.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors">AitorBlog</a>
+            <a href="https://aitorsanchez.pages.dev/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors">AitorBlog</a>
             <span className="hover:text-indigo-600 cursor-pointer transition-colors">Privacidad</span>
             <span className="hover:text-indigo-600 cursor-pointer transition-colors">Github</span>
           </div>
